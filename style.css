@@ -222,3 +222,30 @@
   border-radius: 14px 0 0 14px;
   width: 100%;
 }
+
+.form-checkbox {
+  box-sizing: border-box;
+  width: 150px;
+  height: 82px;
+  border: 1px solid #000000;
+}
+
+.galochka {
+  width: 16px;
+  left: 0px;
+  top: 14.29%;
+  bottom: 9.52%;
+  background: #DBDBDB;
+  border-radius: 5px;
+}
+
+label {
+  height: 14px;
+  left: 23px;
+  top: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
