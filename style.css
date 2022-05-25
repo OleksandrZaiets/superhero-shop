@@ -129,3 +129,131 @@
 .button--shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
+.shop-card{
+  width: 232px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shop-card:hover .shop-card-name{
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.shop-card:hover .shop-card-name__comicsName{
+  color: white;
+}
+.shop-card:hover .shop-card-name__collectionName{
+  color: #B6B6B6;
+}
+.shop-card:hover .shop-card-price{
+  margin-bottom: 30px;
+  margin-right: 5px;
+}
+.shop-card:hover .shop-card-properties{
+  visibility: visible;
+  height: 197px;
+}
+.shop-card-poster{
+  width: 232px;
+  height: 352px;
+}
+.poster-image{
+  width: 100%;
+  height: 100%;
+}
+.poster-image__pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 35px;
+}
+.rating{
+  width: 71px;
+  height: 39px;
+  background-color: white;
+  border-top-right-radius: 20px 20px;
+  border-bottom-left-radius: 35px 35px;
+  position: relative;
+  bottom: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.rating__text{
+  font-size: 18px;
+  font-weight: bold;
+}
+.shop-card-description{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.shop-card-name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all 0.5s ease-in;
+}
+.shop-card-name__comicsName{
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 1s;
+  z-index: 1;
+}
+.shop-card-name__collectionName{
+  font-size: 12px;
+  color: #474747;
+  transition: color 1s;
+  z-index: 1;
+}
+.shop-card-price{
+  color: #EE171F;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+}
+.shop-card-properties{
+  background: linear-gradient(transparent -40%, #262525 99%);
+  position: absolute;
+  bottom: -10px;
+  left: -8px;
+  width: 226px;
+  height: 0;
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 19px 12px 13px;
+}
+.shop-card-properties__description{
+  color: white;
+  font-size: 12px;
+}
+.shop-card-properties__button{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #EE171F;
+  width: 82px;
+  height: 23px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.shop-card-properties__button:hover{
+  background-color: #ce131a;
+}
+.shop-card-properties__button:active{
+  background-color: #EE171F;
+}
