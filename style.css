@@ -228,7 +228,7 @@
   width: 150px;
   height: 82px;
   border: 1px solid #000000;
-  background-color: #DBDBDB;
+  background-color: #E5E5E5;
   padding-left: 15px;
   padding-top: 5px;
 }
@@ -251,9 +251,10 @@
   height: 1em;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid #adb5bd;
+  border: 1px solid #DBDBDB;
   border-radius: 0.25em;
   margin-right: 0.5em;
+  background-color: #DBDBDB;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
